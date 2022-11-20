@@ -3,7 +3,7 @@ import Tile from '../components/Tile'
 
 export default function Home() {
   return (
-    <div className='grid grid-cols-1 md:grid-cols-12 font-crimson-pro'>
+    <div className='grid grid-cols-1 md:grid-cols-12 font-crimson-pro '>
       <Tile position={1}>
         <div className='flex flex-col gap-y-3 -mt-2'>
           <h1 className='text-3xl italic leading-8 '>Max Georgopoulos</h1>

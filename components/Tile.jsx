@@ -16,9 +16,12 @@ export default function Tile({ position, textColor = 'inherit', backgroundColor 
       `}
       >
       <div className={`
-        ${even(position) ? 'md:mr-auto' : 'md:ml-auto'}
-        flex flex-col justify-between gap-y-6 max-w-3xl w-full h-full
+        flex flex-col justify-between gap-y-9 w-full h-full
       `}>
+      {/* <div className={`
+        ${even(position) ? 'md:mr-auto' : 'md:ml-auto'}
+        flex flex-col justify-between gap-y-9 max-w-3xl w-full h-full
+      `}> */}
         {children}   
       </div>
     </div>
